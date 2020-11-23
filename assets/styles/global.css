@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  color: #666;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button {
+  vertical-align: middle;
+  outline: none !important;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*清除浮动*/
+.clearfix::after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
